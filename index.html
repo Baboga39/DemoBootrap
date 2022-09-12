@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link rel="stylesheet" href="assets/main.css">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+<link rel="stylesheet" href="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<title>BOOK STORE</title>
+</head>
+<body>
+<!-- Preload -->
+<div id="preloader" style="visibility: hidden; display: none; opacity: 0;">
+  <div class="jumper">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+</div>
+<!-- Header -->
+<header>    
+  <div class="container-lg">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid mt-2">
+          <a class="navbar-brand" href="#">
+            <img src="https://eyecix.com/html/ereaders/images/logo.png" alt="" width="186" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item  dropdown">
+                <a class="nav-link active header" href="#" role="button" data-bs-toggle='dropdown' aria-expanded="false">
+                  OUR BLOG
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active header " href="#" role="button" data-bs-toggle='dropdown' aria-expanded="false">
+                  BOOKS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active header " href="#" role="button" data-bs-toggle='dropdown' aria-expanded="false">
+                  EVENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active header " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  OUR SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active header " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                  <form class="container-fluid justify-content-start">
+                    <button type="button" class="btn btn-info header" data-bs-toggle="button" autocomplete="off">DOWNLOAD</button>
+                  </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </div>  
+</div></header>
+
+<!-- End Header -->
+
+<!-- Slider -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item carousel-item-next carousel-item-start">
+      <img src="https://eyecix.com/html/ereaders/extra-images/banx`ner-2.jpg" alt=""> 
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Example headline.</h1>
+          <p>Some representative placeholder content for the first slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+      <img src="https://eyecix.com/html/ereaders/extra-images/banx`ner-2.jpg" alt="">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+          <p>Some representative placeholder content for the second slide of the carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item active carousel-item-start">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" ></rect></svg>
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>One more for good measure.</h1>
+          <p>Some representative placeholder content for the third slide of this carousel.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+
+<!-- End Slider -->
+
+<!-- Container -->
+    <!-- Counter -->
+    <div class="container">
+      <div class="row">
+      <div class="four col-md-3">
+        <div class="counter-box colored">
+          <i class="fa fa-thumbs-o-up"></i>
+          <span class="counter">2147</span>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa fa-group"></i>
+          <span class="counter">3275</span>
+          <p>Registered Members</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-shopping-cart"></i>
+          <span class="counter">289</span>
+          <p>Available Products</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-user"></i>
+          <span class="counter">1563</span>
+          <p>Saved Trees</p>
+        </div>
+      </div>
+    </div>	
+    </div> -->
+    <!-- End Counter -->
+
+    <!-- Learn Full -->
+    <div class="learnFull">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="content-a">
+              <h2>
+                LEARN  <span>HOW TO WORK</span> 
+                FROM HOME OR ANY WHERE ELSE IN WORLD
+              </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique erat accumsan eros mattis aliquam. Praesent non accumsan mauris, non maximus libero. Vestibulu scelerisque enim turpis. Duis justo ante, aliquam ac tempus et, porta vitae leo. Moi sed diam pharetra eros maximus porttitor et in tellus.</p>
+              <p>Ut porta massa in risus maximus, eget sodales massa malesuada. Fusce et neque aliquet, mollis tellus ut, rutrum nunc.</p>
+              <a href="404.html" class="ereaders-simple-btn ereaders-bgcolor">Get Started Now </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Learn Full -->
+    
+    <!-- SEVICES -->
+      <div class="service">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="ereaders-fancy-title">
+                  <h2 class="title-service">OUR FEATURED SEVICES
+                  </h2>
+                  <div class="clearfix">
+                    
+                  </div>
+                  <p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+                </div>
+               <div class="service-item">
+                <ul class="row">
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-regular fa-heart"></i>
+                      <h5>1.CREATE YOUR OFFER</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-regular fa-lightbulb"></i>
+                      <h5>2.DEVELOP AN IDEA</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-regular fa-user"></i>
+                      <h5>3.ENGAGE NEW USERS</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-solid fa-cart-arrow-down"></i>
+                      <h5>4.START YOUR CAMPAIGN</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-sharp fa-solid fa-square-xmark"></i>
+                      <h5>5.SAVE YOUR TIME</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4 service-item">
+                    <div class="service-info">
+                      <i class="fa-solid fa-print"></i>
+                      <h5>6.PRINTED BOOKS AVAILABLE</h5>
+                      <p>Quisque ultricies luctus amnisi non dapib us ulla efficitur loo non libe blandit, non rhons luctus</p>
+                    </div>
+                  </li>
+                </ul>
+                
+                
+                  
+               
+               </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- END SEVICES -->
+    
+    <!-- Course -->
+      <div class="course">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ereaders-fancy-title">
+                <h2 class="title-course">COURSE WE ARE PROVIDING
+                </h2>
+                <div class="clearfix">
+                  
+                </div>
+                <p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+              </div>
+            
+              <ul class="row">
+                <li class="col-md-4 course-item">
+                  <div class="introduce">
+                      <h3 class="title-course-item">
+                        <span>08</span>
+                        WE ARE EXPERT IN COURSES YOU LEARN
+                      </h3>
+                      <p class="title-course-item-Para">Aenean porttitor mi at molestie maximus eti ph tri ique viverra. Sed tristiqu rutru mattis ellen tesq ue ege sum dolor sit amet.</p>
+                      <p  class="title-course-item-Para">Ut porta massa in risus maximus, eget sodale mas sa malesuada. Fusce et neque aliquet, mo llis tel lus ut, rutrum nunc</p>
+                  </div>
+                </li>
+                <li class="col-md-8 course-item">
+                    <ul class="row  course-item-link ">
+                      <li class="col-md-6 ">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#77c2f1" class="bi bi-graph-up-arrow course_item-icon" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
+                        </svg> 
+                            <h5 class="course-title-link">      
+                               <a class="course-link" href=""> Chapter 1: Analytics</a>
+                            </h5>
+                          <p class="course-item-para">Ut porta massa in risus maximus, eget sodales mas sa malesuada. Fusce et neque aliquet, mollis tell usut, rutrum nunc.</p>
+                      </li>
+                      <li class="col-md-6 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#77c2f1" class="bi bi-camera-reels course_item-icon" viewBox="0 0 16 16">
+                          <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                          <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                          <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg>
+                            <h5 class="course-title-link">      
+                               <a class="course-link" href=""> Chapter 1: Analytics</a>
+                            </h5>
+                          <p class="course-item-para">Ut porta massa in risus maximus, eget sodales mas sa malesuada. Fusce et neque aliquet, mollis tell usut, rutrum nunc.</p>
+                      </li>
+                      <li class="col-md-6 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#77c2f1" class="bi bi-bookshelf course_item-icon" viewBox="0 0 16 16">
+                          <path d="M2.5 0a.5.5 0 0 1 .5.5V2h10V.5a.5.5 0 0 1 1 0v15a.5.5 0 0 1-1 0V15H3v.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zM3 14h10v-3H3v3zm0-4h10V7H3v3zm0-4h10V3H3v3z"/>
+                        </svg> 
+                            <h5 class="course-title-link">      
+                               <a class="course-link" href=""> Chapter 1: Analytics</a>
+                            </h5>
+                          <p class="course-item-para">Ut porta massa in risus maximus, eget sodales mas sa malesuada. Fusce et neque aliquet, mollis tell usut, rutrum nunc.</p>
+                      </li>
+                      <li class="col-md-6 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#77c2f1" class="bi bi-envelope course_item-icon" viewBox="0 0 16 16">
+                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                            <h5 class="course-title-link">      
+                               <a class="course-link" href=""> Chapter 1: Analytics</a>
+                            </h5>
+                          <p class="course-item-para">Ut porta massa in risus maximus, eget sodales mas sa malesuada. Fusce et neque aliquet, mollis tell usut, rutrum nunc.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Course -->
+
+    <!-- New -->
+      <div class="new">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ereaders-fancy-title">
+                <h2 class="title-service">OUR FEATURED SEVICES
+                </h2>
+                <div class="clearfix">
+                  
+                </div>
+                <p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+              </div>
+              <ul class="row new-item">
+                <li class="col-md-4">
+                  <div class="wrap">
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="https://eyecix.com/html/ereaders/extra-images/blog-grid-img1.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </a>
+                    </figure>
+                    <div class="new-item--container">
+                      <span>Business</span>
+                      <h2>
+                        <a href="#">Things you should know before pairing your home</a>
+                      </h2>
+                      <ul class="new-item-info">
+                        <li class="new-icon">21August 2017</li>
+                        <li>
+                          <a href="#"> Comments 32</a>
+                        </li>
+                      </ul>
+                      <p>Nam ut egestas nibh. Phasellus sollicitudin tempus neque quis gravida. Aenean a eros at ex pharetra suscipit.
+                      </p>
+                      <a href="#" class="readmore-btn">Read more <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-4">
+                  <div class="wrap">
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="https://eyecix.com/html/ereaders/extra-images/blog-grid-img2.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </a>
+                    </figure>
+                    <div class="new-item--container">
+                      <span>DOMAIN</span>
+                      <h2>
+                        <a href="#">CONSECTETUR ADIPISCING ELIT. PRA ESENT ACCUMSAN
+                        </a>
+                      </h2>
+                      <ul class="new-item-info">
+                        <li class="new-icon">21August 2017</li>
+                        <li>
+                          <a href="#"> Comments 32</a>
+                        </li>
+                      </ul>
+                      <p>Lorem ipsum dolor sit amet, consectetu ad piscing elit. Praesent accumsan sit amet risus sed auctor.
+                      </p>
+                      <a href="#" class="readmore-btn">Read more <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-4">
+                  <div class="wrap">
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="https://eyecix.com/html/ereaders/extra-images/blog-grid-img3.jpg" class="figure-img img-fluid rounded" alt="...">
+                      </a>
+                    </figure>
+                    <div class="new-item--container">
+                      <span>KEYWORDS</span>
+                      <h2>
+                        <a href="#">UT NON IMPERDIET QUAM NULLAM SED LACUS UT MI ORNARE</a>
+                      </h2>
+                      <ul class="new-item-info">
+                        <li class="new-icon">21August 2017</li>
+                        <li>
+                          <a href="#"> Comments 32</a>
+                        </li>
+                      </ul>
+                      <p>Nullam sed lacus ut mi ornare consectetur id sed urna. Praesent vestibulum eget ante nec semper.
+                      </p>
+                      <a href="#" class="readmore-btn">Read more <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End New -->
+
+    <!-- Author -->
+    <div class="author">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <aside class="author-img ">
+              <img src="https://eyecix.com/html/ereaders/extra-images/about-author-img.jpg" class="author-img--item" alt="Ảnh tác giả">  
+            </aside>
+          </div>
+          <div class="col-md-6">
+           <div class="author-info">
+            <h4 class="author-about">ABOUT THE <span class="author-special">AUTHOR</span></h4>
+            <p class="author-p1">
+            Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+          </p>
+          <p class="author-p2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accusa sit amet risus sed auctor. Ut non imperdiet quam. Nullam sed lacus ut mior nare consectetur id sed urna. Praesent vestibulum eget ant nec seper ull corper sodales tortor vel mattis.
+          </p>
+          <p class="author-p2">
+            Nam ut egestas nibh. Phasellus sollicitudin tempus neque quis gravida. Aenean a eros at ex pharetra suscipit. Proin iaculis ipsum ac ullamcorper pre tium. Morbi ut leo eu felis commodo porta.
+          </p>
+           </div>
+          <div class="authou-sign mt-2 mb-4">
+            <img src="https://eyecix.com/html/ereaders/images/signature.png" alt="Chữ kí tác giả">
+          </div>
+          <div class="author-social">
+            <ul class="author-social--list  mt-4">
+             <li class="author-social--item">
+              <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+             </li>
+             <li class="author-social--item">
+              <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+                <i class="fab fa-twitter"></i>
+              </a>
+             </li>
+             <li class="author-social--item">
+              <a class="btn btn-primary" style="background-color: #c61118;" href="#!" role="button">
+                <i class="fab fa-pinterest"></i>
+              </a>
+             </li>
+             <li class="author-social--item">
+              <a class="btn btn-primary" style="background-color: #dd4b39;" href="#!" role="button">
+                <i class="fab fa-google"></i>
+              </a>
+             </li>
+             <li class="author-social--item">
+              <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button">
+                <i class="fab fa-instagram"></i>
+              </a>
+             </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Author -->
+
+    <!-- Comment -->
+    <div class="Comment">
+      <div class="container">
+        <div class="row">
+         
+            <div class="ereaders-fancy-title">
+              <h2 class="title-comment">
+                WHAT PEOPLE SAY
+              </h2>
+              <div class="clearfix">
+                
+              </div>
+              <p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+          </div>
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://eyecix.com/html/ereaders/extra-images/testimonial-img3.jpg" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Dave Wood</h2>
+                                        <h4>Web Developer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://eyecix.com/html/ereaders/extra-images/testimonial-img1.jpg" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Martin Guptill</h2>
+                                        <h4>UI/UX Designer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://eyecix.com/html/ereaders/extra-images/testimonial-img2.jpg" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Stephen Jones</h2>
+                                        <h4>Graphic Designer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Commnet -->
+
+    <!-- Download -->
+     <div class="download">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="ereaders-fancy-title">
+            <h2 class="title-service">READ IT IN ALL DEVICES
+            </h2>
+            <div class="clearfix">
+              
+            </div>
+            <p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+          </div>
+        </div>
+        
+            <div class=" download-container col-md-6">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit aesent accumsan sit amet risus sed auctor.</h3>
+              <p>Aenean ultricies iaculis cursus. Mauris enim tellus, finibus in felis sollicitu din iaculis dolor. Donec sollicitudin orci id efficitur dapibus. Aliq uamtem por ien sed condimentum fringilla. In magna elit, ultrices a eros it amet, iaculis hendrerit tellusn iaculis nisi, nec maximus lorem</p>
+              <p>Nam ut egestas nibh. Phasellus sollicitudin tempus neque quis gravida. Aenean a eros at ex pharetra suscipit.</p>
+           
+              <div class=" text-left">
+                    <p>
+                        <a href="#" class="btn btn-store">
+                            <span class="fa fa-apple fa-3x pull-left"></span> 
+                            <span class="btn-label">Download on the</span>
+                            <span class="btn-caption">App Store</span>
+                        </a>
+                        <a href="#" class="btn btn-store Googleplay">
+                            <span class="fa fa-android fa-3x pull-left"></span> 
+                            <span class="btn-label">Download on the</span>
+                            <span class="btn-caption">Google Play</span>
+                        </a>
+                    </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="download-img">
+                <img src="https://eyecix.com/html/ereaders/extra-images/app-thumb.jpg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- End Download -->
+    <!-- End Container -->
+
+    <!-- Footer -->
+     <footer class="footer-distributed">
+    
+          <div class="footer-left">
+    
+           <img class="footer-book-logo" src="https://eyecix.com/html/ereaders/images/logo.png" alt="">
+          </div>
+    
+          <div class="footer-center">
+    
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+            </div>
+    
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>09999999999999</p>
+            </div>
+    
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:support@book.com">support@book.com</a></p>
+            </div>
+    
+          </div>
+    
+          <div class="footer-right">
+    
+            <p class="footer-book-about">
+              <span>About the book</span>
+              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+    
+            <div class="footer-icons">
+    
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-github"></i></a>
+    
+            </div>
+    
+          </div>
+    
+        </footer> 
+    <!-- End Footer -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   ="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+<script src="./index.js"></script>
+</body>
+</html>
